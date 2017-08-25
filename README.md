@@ -10,3 +10,11 @@ yarn
 log4js
 algrithmn 
 css - 双飞翼布局
+
+
+## 8-25
+react  - life hook 各情况下触发顺序
+webpack - code split(优化使用缓存，减小文件大小)
+         -- HashedModuleIdsPlugin
+axios - 相比于fetch更方便的http库
+
