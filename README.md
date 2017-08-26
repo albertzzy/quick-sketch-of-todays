@@ -18,3 +18,10 @@ webpack - code split(优化使用缓存，减小文件大小)
          -- HashedModuleIdsPlugin
 axios - 相比于fetch更方便的http库
 
+## 8-26
+commonChunkPlugin 
+                -- webpack(parent -> son)   chunk -> module
+                -- minchunk 限制哪些module/包含这个module的最小chunk数量   可以提取到 common chunk里面
+                -- common chunk 可以是async 和 非 async的
+                        
+
