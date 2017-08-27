@@ -25,3 +25,16 @@ commonChunkPlugin
                 -- common chunk 可以是async 和 非 async的
                         
 
+## 8-27
+facade 模式 - node 里面的api(创建服务) / jquery里的ajax (将复杂的逻辑隐藏在api后面)
+
+任务队列 - 异步任务会放在里面，等到主线程同步任务执行完才开始
+        - js event loop (setTimeout 是在任务队列尾部添加事件)
+        - node event loop
+                -- process.nextTick 发生在执行栈尾部，在任何异步任务之前，因此嵌套递归process.nextTick 的话任务队列永远不会执行
+                -- setImmediate 是将事件放在下次loop 的尾部 类似setTimeout(fn,0)
+Promise 实现
+        - Symbol
+        - MutationObserver (监视dom变动)[http://www.cnblogs.com/jscode/p/3600060.html]
+compiler 实现
+        - 递归
