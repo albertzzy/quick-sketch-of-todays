@@ -36,5 +36,13 @@ facade 模式 - node 里面的api(创建服务) / jquery里的ajax (将复杂的
 Promise 实现
         - Symbol
         - MutationObserver (监视dom变动)[http://www.cnblogs.com/jscode/p/3600060.html]
+        - [https://segmentfault.com/a/1190000009478377#articleHeader7]
 compiler 实现
         - 递归
+
+
+## 8-28
+react top level api
+        - React.Children.toArray/map/forEach/count/only
+        - spread(将数组转为用逗号分隔的参数序列) / rest (把多余变量放在一个数组中)
+        - window online offline 事件
