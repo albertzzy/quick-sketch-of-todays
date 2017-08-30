@@ -46,3 +46,6 @@ react top level api
         - React.Children.toArray/map/forEach/count/only
         - spread(将数组转为用逗号分隔的参数序列) / rest (把多余变量放在一个数组中)
         - window online offline 事件
+
+## 8-30
+babel [https://excaliburhan.com/post/babel-preset-and-plugins.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io]
