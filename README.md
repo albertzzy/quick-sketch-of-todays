@@ -49,3 +49,13 @@ react top level api
 
 ## 8-30
 babel [https://excaliburhan.com/post/babel-preset-and-plugins.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io]
+
+## 8-31
+hoist-non-react-statics - 拷贝原始component的static方法到Hoc component包裹下生成的component上
+react-router 
+        - withRouter 在你的wrappedComponent里可以获取到this.props.router对象;当然不用withRouter你也可以用context对象
+        - history api ie10+ android 4.3+  / hashchange ie8+
+        - history 包 （browserhistory,memoryhistory,hashhistory）
+        - hoc
+                 - An HOC is a pure function with zero side-effects
+                 - Instead of mutation, HOCs should use composition, by wrapping the input component in a container component
