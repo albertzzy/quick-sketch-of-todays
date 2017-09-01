@@ -59,3 +59,20 @@ react-router
         - hoc
                  - An HOC is a pure function with zero side-effects
                  - Instead of mutation, HOCs should use composition, by wrapping the input component in a container component
+
+
+## 9-1
+react 
+        - keys (The key only has to be unique among its siblings, not globally unique.)
+        - the diff algorithm
+                --Elements Of Different Types
+                --DOM Elements Of The Same Type
+                --Component Elements Of The Same Type
+                --Recursing On Children
+
+        - 整个过程 compare -> update -> render
+                     |           |
+                    SCU? -------YES
+                     |
+                     No --> render not called
+        - 数组作为state 的时候，要返回新的对象才会更新，push 不返回新的对象
