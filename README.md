@@ -76,3 +76,7 @@ react
                      |
                      No --> render not called
         - 数组作为state 的时候，要返回新的对象才会更新，push 不返回新的对象
+
+## 9-4
+xss 
+csrf 
