@@ -80,3 +80,6 @@ react
 ## 9-4
 xss 
 csrf 
+
+## 9-5
+ssr / prerend
