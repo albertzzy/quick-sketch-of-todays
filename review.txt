@@ -123,7 +123,7 @@ koa/express 异常处理
     koa - 使用‘error' 事件，如果你不指定‘error’ 监听，则调用内部默认的error处理，只是log error message
         - 使用try - catch
     this.throw 把错误信息直接暴露给用户
-    Promise 里throw 的东西也可以catch 到，并打印出来 
+    Promise 里throw 的东西也可以catch 到，并打印出来 (http://efe.baidu.com/blog/promises-anti-pattern/)
 
 
 
