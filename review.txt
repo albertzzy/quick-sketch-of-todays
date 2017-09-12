@@ -7,8 +7,6 @@ netease react 项目
     异步请求更新状态问题
 
 chuanhua react 项目
-    componentWillRecieveProps 每次change state 的时候都会触发？
-
     fetch 并不是很好使用的问题  -  axios
     异步action 处理的问题 - dva
 
@@ -27,7 +25,15 @@ dva （redux-saga , react-router,react-router-redux , react-async-component (组件
 
 
 
-mobx
+react 单元测试
+    jest +  enzyme  - {shallow} 浅渲染 {mount,render}
+    (http://www.aliued.com/?p=4095)
+
+
+mobx vs redux
+https://zhuanlan.zhihu.com/p/25989654
+
+
 vue / vuex
 
 
@@ -59,6 +65,8 @@ css
         justify-content  水平对齐方式
         align-items    垂直对齐方式
         align-content  多根轴线的对齐方式
+
+        
         order  排列顺序
         flex-grow  默认为0 瓜分剩余空间  ---- \
         flex-shrink 空间不足将缩小       ----  | -  flex:1 1 auto; flex:0 0 auto;
@@ -74,7 +82,7 @@ tcp
     4次分手
 
 https
-    tls对数据进行加密
+    ssl/tls对数据进行加密
     数据传输是对称加密，握手过程加密生成的密码是非对称
 
 
@@ -84,11 +92,11 @@ https
 xss
     - 防御：内联事件拦截,csp,htmlencode | MutationObserver 监听可疑的外部模块
     - 反射型， 存储型（上传svg onload 里有payload）， dom 型（url 参数等）
-
+    https://www.zhihu.com/question/21979782
 csrf
     - 防御：检查http header referer 字段，添加验证码，使用一次性token（结合xss，都有可能无效）
 
-装饰模式（react redux - connect）， 门面模式,代理模式
+装饰模式（react redux - connect）， 门面模式,代理模式，发布订阅模式
 
 
 node 模块
@@ -106,6 +114,7 @@ node 模块
     net 模块即是用来创建 tcp /ipc 服务器 、 客户端的
 
     __dirname 当前模块的文件夹名称  __filename 当前模块的 文件名称
+    process.cwd()  进程当前工作的目录
 
     event loop 
         - 浏览器端
@@ -116,14 +125,65 @@ node 模块
 
 
 http code
-    204,403
+    204 - no content 可以节省数据传输,403
 
 
 koa/express 异常处理
     koa - 使用‘error' 事件，如果你不指定‘error’ 监听，则调用内部默认的error处理，只是log error message
         - 使用try - catch
+        - 中间件统一处理
+
     this.throw 把错误信息直接暴露给用户
     Promise 里throw 的东西也可以catch 到，并打印出来 (http://efe.baidu.com/blog/promises-anti-pattern/)
+
+
+
+
+regular 
+    two - way bind  - change / input 事件修改watch 的表达式的值，然后再手动触发脏检查
+    diff 最短编辑路劲算法
+
+    有时候都需要手动触发脏检查-除了事件等
+
+    脏检查
+        完全不关心你改变数据的方式
+        实现批处理完数据之后，再去统一更新view
+        实现任意复杂度的表达式支持
+
+
+
+
+
+
+npm package.json
+
+    http://ju.outofmemory.cn/entry/130809
+    peerDependency
+
+
+
+
+
+
+
+
+///////
+redux
+    大型应用可测试性也是很重要的，react 比较倡导 'pure' - 不去尝试改变它的输入，相同的输入总有相同的输出。
+    函数式编程可能就是一种以pure 的function 为子元素的编程方式。
+    redux里也是各种体现：immutable,middleware 机制等 - 可预测，可测试
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

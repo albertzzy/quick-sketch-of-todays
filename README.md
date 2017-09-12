@@ -21,7 +21,7 @@ axios - 相比于fetch更方便的http库
 ## 8-26
 commonChunkPlugin 
                 -- webpack(parent -> son)   chunk -> module
-                -- minchunk 限制哪些module/包含这个module的最小chunk数量   可以提取到 common chunk里面
+                -- minchunk 限制哪些module/我要从那些chunk中提出公共module到一个单独的commonchunk中，chunk的最小数量。 
                 -- common chunk 可以是async 和 非 async的
                         
 
