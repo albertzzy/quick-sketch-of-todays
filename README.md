@@ -96,3 +96,7 @@ http micro services
 ## 9-13
 mvvm(http://www.cnblogs.com/aaronjs/p/3614049.html)
 (https://zhuanlan.zhihu.com/p/20937362)
+
+## 9-14
+blob （http://ccloli.com/201509/bullshit-about-blob-and-object-url/）
+
