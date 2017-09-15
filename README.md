@@ -94,8 +94,7 @@ a标签点击 拦截的应用
 http micro services
 
 ## 9-13
-mvvm(http://www.cnblogs.com/aaronjs/p/3614049.html)
-(https://zhuanlan.zhihu.com/p/20937362)
+mvvm(http://blog.csdn.net/yczz/article/details/51516498)
 
 ## 9-14
 blob （http://ccloli.com/201509/bullshit-about-blob-and-object-url/）
