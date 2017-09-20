@@ -101,3 +101,7 @@ blob （http://ccloli.com/201509/bullshit-about-blob-and-object-url/）
 
 ## 9-18
 preact (https://zhuanlan.zhihu.com/p/29054761)
+
+
+## 9-20
+algrithm
