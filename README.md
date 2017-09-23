@@ -105,3 +105,6 @@ preact (https://zhuanlan.zhihu.com/p/29054761)
 
 ## 9-20
 algrithm
+
+## 9-23
+dom diff
