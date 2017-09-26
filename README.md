@@ -109,4 +109,6 @@ algrithm
 ## 9-23
 dom diff
 
-## 9-25
+## 9-26
+(http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html)[http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html]
+(http://www.iteye.com/news/31307)[http://www.iteye.com/news/31307]
