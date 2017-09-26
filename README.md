@@ -111,4 +111,7 @@ dom diff
 
 ## 9-26
 (http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html)[http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html]
+
 (http://www.iteye.com/news/31307)[http://www.iteye.com/news/31307]
+
+(https://segmentfault.com/a/1190000011235844)[https://segmentfault.com/a/1190000011235844]
