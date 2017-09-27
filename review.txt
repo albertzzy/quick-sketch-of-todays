@@ -179,7 +179,8 @@ redux
 我要怎么实现？
     redux
     mobx
-
+    react-router
+    
 
 整体工程化
 
@@ -188,7 +189,12 @@ redux
 dom diff
 
 node 调试- 分析
+    增量mark lazy sweep
 
 
+
+react 流式渲染
+
+seo
 
 

@@ -115,3 +115,9 @@ dom diff
 (http://www.iteye.com/news/31307)[http://www.iteye.com/news/31307]
 
 (https://segmentfault.com/a/1190000011235844)[https://segmentfault.com/a/1190000011235844]
+
+## 9-27
+jwt (http://www.cnblogs.com/dinglinyong/p/6611151.html)[http://www.cnblogs.com/dinglinyong/p/6611151.html]
+
+mongoose 表关联 (http://www.jianshu.com/p/135c7f843666)[http://www.jianshu.com/p/135c7f843666]
+
