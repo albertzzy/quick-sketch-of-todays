@@ -121,3 +121,5 @@ jwt (http://www.cnblogs.com/dinglinyong/p/6611151.html)[http://www.cnblogs.com/d
 
 mongoose 表关联 (http://www.jianshu.com/p/135c7f843666)[http://www.jianshu.com/p/135c7f843666]
 
+## 10-3
+npm 配置项参数 (https://zhuanlan.zhihu.com/p/29855253)[https://zhuanlan.zhihu.com/p/29855253]
