@@ -110,21 +110,33 @@ algrithm
 dom diff
 
 ## 9-26
-(http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html)[http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html]
+[http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html](http://www.cnblogs.com/hyddd/archive/2013/02/06/2908110.html)
 
-(http://www.iteye.com/news/31307)[http://www.iteye.com/news/31307]
+[http://www.iteye.com/news/31307](http://www.iteye.com/news/31307)
 
-(https://segmentfault.com/a/1190000011235844)[https://segmentfault.com/a/1190000011235844]
+[https://segmentfault.com/a/1190000011235844](https://segmentfault.com/a/1190000011235844)
 
 ## 9-27
-jwt (http://www.cnblogs.com/dinglinyong/p/6611151.html)[http://www.cnblogs.com/dinglinyong/p/6611151.html]
+jwt [http://www.cnblogs.com/dinglinyong/p/6611151.html](http://www.cnblogs.com/dinglinyong/p/6611151.html)
 
-mongoose 表关联 (http://www.jianshu.com/p/135c7f843666)[http://www.jianshu.com/p/135c7f843666]
+mongoose 表关联 [http://www.jianshu.com/p/135c7f843666](http://www.jianshu.com/p/135c7f843666)
 
 ## 10-3
-npm 配置项参数 (https://zhuanlan.zhihu.com/p/29855253)[https://zhuanlan.zhihu.com/p/29855253]
+npm 配置项参数 [https://zhuanlan.zhihu.com/p/29855253](https://zhuanlan.zhihu.com/p/29855253)
 
 ## 10-5
-(https://75team.com/post/luckey-draw-in-5-minutes)[https://75team.com/post/luckey-draw-in-5-minutes]
+[https://75team.com/post/luckey-draw-in-5-minutes](https://75team.com/post/luckey-draw-in-5-minutes)
 genarator
 es6值交换
+
+## 10-7
+shadow dom
+[http://www.cnblogs.com/coco1s/p/5711795.html](http://www.cnblogs.com/coco1s/p/5711795.html)
+
+createShadowRoot --deprecated--> attachShadow({mode:'open/closed'})
+
+viewport
+document.body.clientWidth / window.innerWidth 取的是布局视口的宽度
+
+[http://www.css88.com/archives/5975](http://www.css88.com/archives/5975)
+[http://www.cnblogs.com/2050/p/3877280.html](http://www.cnblogs.com/2050/p/3877280.html)
