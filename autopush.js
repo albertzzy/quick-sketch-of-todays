@@ -21,31 +21,28 @@ async function rand(){
 }
 
 
-
 async function  autoPush(){
     
     try{
 
         await rand();
 
-        const {add_stdout,add_stderr} = await exec('git add .');
+        const add_std = await exec('git add .');
         
-        console.log(`add----${add_stdout}`);
-        console.log(`add----${add_stderr}`);
+        console.log(`add----${add_std.stdout}`);
+        console.log(`add----${add_std.stderr}`);
 
 
 
-        const {com_stdout,com_stderr} = await exec('git commit -m "doc update"');
+        const com_std = await exec('git commit -m "doc update"');
         
-        console.log(`commit----${com_stdout}`);
-        console.log(`commit----${com_stderr}`);
+        console.log(`commit----${com_std.stdout}`);
+        console.log(`commit----${com_std.stderr}`);
 
 
-        const {push_stdout,push_stderr} = await exec("git push");
-        console.log(`push-----${push_stdout}`);
-        console.log(`push-----${push_stderr}`); 
-
-
+        const push_std = await exec("git push");
+        console.log(`push-----${push_std.stdout}`);
+        console.log(`push-----${push_std.stderr}`); 
 
 
     }catch(e){
