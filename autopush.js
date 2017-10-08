@@ -53,10 +53,10 @@ async function  autoPush(){
 }
 
 
-setTimeout( () => {
+// setInterval( () => {
 
     count ++;
 
     autoPush();
 
-},5000)
+// },24*3600*1000)
