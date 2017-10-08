@@ -28,14 +28,14 @@ async function  autoPush(){
 
         await rand();
 
-        const {add_stdout,add_stderr} = await exec('git add .|git commit -m "doc revise"');
+        const {add_stdout,add_stderr} = await exec('git add .');
         
         console.log(`add----${add_stdout}`);
         console.log(`add----${add_stderr}`);
 
 
 
-       /*  const {com_stdout,com_stderr} = await exec("git commit -m 'doc update'");
+        const {com_stdout,com_stderr} = await exec('git commit -m "doc update"');
         
         console.log(`commit----${com_stdout}`);
         console.log(`commit----${com_stderr}`);
@@ -43,7 +43,7 @@ async function  autoPush(){
 
         const {push_stdout,push_stderr} = await exec("git push");
         console.log(`push-----${push_stdout}`);
-        console.log(`push-----${push_stderr}`); */
+        console.log(`push-----${push_stderr}`); 
 
 
 
