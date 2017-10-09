@@ -140,5 +140,17 @@ document.body.clientWidth / window.innerWidth 取的是布局视口的宽度
 
 [http://www.css88.com/archives/5975](http://www.css88.com/archives/5975)
 [http://www.cnblogs.com/2050/p/3877280.html](http://www.cnblogs.com/2050/p/3877280.html)
-  
+
+
+## 10-9
+react 事件系统
+react/src/renderers/dom/shared/eventPlugins/SimpleEventPlugin.js
+react/src/renderers/shared/shared/event/EventPluginUtils.js
+react/src/renderers/shared/utils/ReactErrorUtils.js
+react/src/renderers/shared/shared/event/ReactEventEmitterMixin.js
+react/src/renderers/dom/shared/ReactBrowserEventEmitter.js
+react/src/renderers/dom/shared/ReactDOMEventListener.js
+
+
+阻止冒泡？
                           
