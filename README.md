@@ -152,5 +152,7 @@ react/src/renderers/dom/shared/ReactBrowserEventEmitter.js
 react/src/renderers/dom/shared/ReactDOMEventListener.js
 
 
-阻止冒泡？
-                          
+阻止冒泡
+
+## 10-10
+[https://philipwalton.com/articles/loading-polyfills-only-when-needed/](https://philipwalton.com/articles/loading-polyfills-only-when-needed/)
