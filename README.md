@@ -152,7 +152,34 @@ react/src/renderers/dom/shared/ReactBrowserEventEmitter.js
 react/src/renderers/dom/shared/ReactDOMEventListener.js
 
 
-阻止冒泡
+
+[https://segmentfault.com/a/1190000008782645](https://segmentfault.com/a/1190000008782645)
+SyntheticEvent 等合成事件会被重用，为了性能考虑，因为，原生的事件是浏览器每监听一个事件，就会创建一个事件对象。
+
 
 ## 10-10
-[https://philipwalton.com/articles/loading-polyfills-only-when-needed/](https://philipwalton.com/articles/loading-polyfills-only-when-needed/)
+pollyfill service[https://philipwalton.com/articles/loading-polyfills-only-when-needed/](https://philipwalton.com/articles/loading-polyfills-only-when-needed/)
+
+document.write
+createElement script
+
+
+style 阻塞渲染
+        外部css 加载不会阻塞外部/内联js加载，但会阻塞js执行,但是如果加了async 属性，就不会阻塞js执行
+
+        外部加载css 会阻塞下面的动态加载js---其实也就是阻塞下面的js 执行
+
+
+
+[http://blog.csdn.net/code_for_free/article/details/53306975](http://blog.csdn.net/code_for_free/article/details/53306975)
+
+[https://developers.google.com/web/fundamentals/performance/rendering/](https://developers.google.com/web/fundamentals/performance/rendering/)
+
+[http://taobaofed.org/blog/2016/01/20/mobile-wpo-pageshow-async/](http://taobaofed.org/blog/2016/01/20/mobile-wpo-pageshow-async/)
+
+* [http://www.cnblogs.com/zhuzhenwei918/p/6546083.html](http://www.cnblogs.com/zhuzhenwei918/p/6546083.html)
+
+
+
+
+xss htmlencode 的局限性
