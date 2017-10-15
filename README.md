@@ -187,3 +187,7 @@ xss htmlencode 的局限性
 
 ## 10-14
 d3
+
+## 10-15
+canvas style中的宽/高度和 width/height 属性 的区别
+[http://www.cnblogs.com/artwl/archive/2012/02/28/2372042.html](http://www.cnblogs.com/artwl/archive/2012/02/28/2372042.html)
