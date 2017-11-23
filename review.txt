@@ -25,23 +25,9 @@ dva （redux-saga , react-router,react-router-redux , react-async-component (组件
 
 
 
-react 单元测试
-    jest +  enzyme  - {shallow} 浅渲染 {mount,render}
-    (http://www.aliued.com/?p=4095)
-
-
 mobx vs redux
 https://zhuanlan.zhihu.com/p/25989654
 
-
-vue / vuex
-
-
-   
-react 
-	- 处理异步的问题
-	- setState 知乎(https://zhuanlan.zhihu.com/p/28905707?utm_source=wechat_session&utm_medium=social)
-	- bind this
 
 npm link /cache
 	http://www.cnblogs.com/CyLee/p/6195022.html
@@ -154,10 +140,7 @@ regular
 
 
 
-
-
 npm package.json
-
     http://ju.outofmemory.cn/entry/130809
     peerDependency
 
@@ -197,5 +180,55 @@ node 调试- 分析
 react 流式渲染
 
 seo
+
+
+
+////////////////////////////
+
+当数据源比较多并且有相互依赖关系的时候，可以把每个数据源当成一个Observable(一个数据管道)，然后再合并，然后只要订阅这个总的observable就行，不需要关注数据源来源。
+
+keywords: react/redux --- lift state up(2waybind)   
+                |
+                |__ side-effects:  异步流程控制，一个异步依赖另一个异步 | 视图上发起一个操作，要修改全局状态树的不同位置
+                |
+            mobx rxjs 
+
+            react-router  
+            移动端   
+            vue原理  
+            canvas  
+            webpack
+
+dva redux-middleware redux-immutable redux-observable(rxjs) 
+
+js css basics
+webpack
+react redux
+
+
+移动端兼容问题
+http://blog.csdn.net/hardgirls/article/details/51722519
+
+
+
+eleme pwa
+https://huangxuan.me/2017/07/12/upgrading-eleme-to-pwa/
+
+如果只是为了seo 可以采用 prerender-spa-plugin 
+多页应用
+    PUSH/PRELOAD RENDER  PRE-CACHE LAZY-LOAD 
+    巨大的 JavaScript 重启开销
+    V8 提供了代码缓存（code caching），可以将编译后的机器码在本地拷贝一份
+    进退缓存（chrome 不支持）
+    
+
+单页应用
+
+
+
+
+
+
+
 
 
