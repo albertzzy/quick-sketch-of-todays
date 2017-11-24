@@ -421,3 +421,58 @@ http://www.daqianduan.com/2831.html
 
 ## 11-23
 [浏览器端的九种缓存机制介绍](http://www.techweb.com.cn/network/system/2016-01-05/2252395.shtml)
+
+
+
+## 11-24
+redux-observable
+
+        epic - a function that takes a stream of actions dispatched and return a new stream of actions to dispatch
+```js
+        function PingPong(action,store){
+                if(action.type === 'PING'){
+                        return {type:'PONG'}
+                }
+        }
+        /*
+                ||
+                \/
+              an epic
+        */
+
+        const pingPongEpic = (action$,store) =>{
+                action$.ofType('PING').map(action => ({type:'PONG'}))
+        }
+
+
+        const incrementEpic = (action$,store) => {
+                action$.ofType('INCREMENT_DEBOUNCED')
+                .debounceTime(1000)
+                .map( () => {type:'INCREMENT'})
+        }
+
+
+        const autoCompleteEpic = (action$,store)=>{
+                action$.ofType('QUERY')
+                        .debounceTime(500)
+                        .switchMap(action => 
+                                ajax('http://sdsdfsadjflaksjdf?q='+value)
+                                .map(payload => ({
+                                        type:'QUERY_FULLFILLED',
+                                        payload
+                                }))
+                                .takeUntil(action$.ofType('CANCEL_QUERY'))
+                                .catch(payload =>({
+                                        type:'QUERY_REJECT',
+                                        error:true,
+                                        payload
+                                }))
+                        )
+
+        }
+        
+
+```
+        
+方便组合和控制异步任务
+不用自己管理rx subscription
