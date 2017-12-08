@@ -114,6 +114,7 @@ dom diff
 
 [http://www.iteye.com/news/31307](http://www.iteye.com/news/31307)
 
+anujs preact react
 [https://segmentfault.com/a/1190000011235844](https://segmentfault.com/a/1190000011235844)
 
 ## 9-27
@@ -517,3 +518,14 @@ koa -stream
 ## 11-29
 h5-native 通信
 [http://blog.csdn.net/wuyajun1124/article/details/41622977](http://blog.csdn.net/wuyajun1124/article/details/41622977)
+
+
+## 12-5
+chrome  debugger
+[http://wiki.jikexueyuan.com/project/chrome-devtools/debugging-javascript.html](http://wiki.jikexueyuan.com/project/chrome-devtools/debugging-javascript.html)
+[https://segmentfault.com/a/1190000008396389](https://segmentfault.com/a/1190000008396389)
+
+
+## 12-7
+pageshow pagehide
+[https://www.cnblogs.com/milo-wjh/p/6811868.html](https://www.cnblogs.com/milo-wjh/p/6811868.html)
