@@ -529,3 +529,8 @@ chrome  debugger
 ## 12-7
 pageshow pagehide
 [https://www.cnblogs.com/milo-wjh/p/6811868.html](https://www.cnblogs.com/milo-wjh/p/6811868.html)
+
+## 12-8
+http keep-alive  &  http2 多路复用
+[http://www.blogjava.net/yongboy/archive/2015/03/19/423611.aspx](http://www.blogjava.net/yongboy/archive/2015/03/19/423611.aspx)
+[http://www.nowamagic.net/academy/detail/23350305](http://www.nowamagic.net/academy/detail/23350305)
