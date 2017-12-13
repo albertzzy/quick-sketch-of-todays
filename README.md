@@ -534,3 +534,7 @@ pageshow pagehide
 http keep-alive  &  http2 多路复用
 [http://www.blogjava.net/yongboy/archive/2015/03/19/423611.aspx](http://www.blogjava.net/yongboy/archive/2015/03/19/423611.aspx)
 [http://www.nowamagic.net/academy/detail/23350305](http://www.nowamagic.net/academy/detail/23350305)
+
+## 12-13
+import、require、export、module.exports 混合使用详解
+[https://juejin.im/post/5a2e5f0851882575d42f5609?utm_medium=fe&utm_source=weixinqun&from=timeline](https://juejin.im/post/5a2e5f0851882575d42f5609?utm_medium=fe&utm_source=weixinqun&from=timeline)
