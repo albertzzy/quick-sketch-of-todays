@@ -538,3 +538,6 @@ http keep-alive  &  http2 多路复用
 ## 12-13
 import、require、export、module.exports 混合使用详解
 [https://juejin.im/post/5a2e5f0851882575d42f5609?utm_medium=fe&utm_source=weixinqun&from=timeline](https://juejin.im/post/5a2e5f0851882575d42f5609?utm_medium=fe&utm_source=weixinqun&from=timeline)
+
+## 12-18
+[https://zhuanlan.zhihu.com/p/32112508?utm_source=wechat_session&utm_medium=social&from=singlemessage](https://zhuanlan.zhihu.com/p/32112508?utm_source=wechat_session&utm_medium=social&from=singlemessage)
