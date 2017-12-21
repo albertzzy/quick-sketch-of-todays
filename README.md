@@ -384,3 +384,8 @@ import、require、export、module.exports 混合使用详解
 
 ## 12-18
 [https://zhuanlan.zhihu.com/p/32112508?utm_source=wechat_session&utm_medium=social&from=singlemessage](https://zhuanlan.zhihu.com/p/32112508?utm_source=wechat_session&utm_medium=social&from=singlemessage)
+
+
+## 12-21
+trim = (arg)=>arg.replace(/^\s+|\s+$/g,'')
+trim = (arg)=>arg.replace(/^\s*(?<=\s|^)(?!\s)(.+)(?<!\s)(?=\s|$)\s*$/,'$1')
