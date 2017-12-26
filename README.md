@@ -383,9 +383,19 @@ import、require、export、module.exports 混合使用详解
 [https://juejin.im/post/5a2e5f0851882575d42f5609?utm_medium=fe&utm_source=weixinqun&from=timeline](https://juejin.im/post/5a2e5f0851882575d42f5609?utm_medium=fe&utm_source=weixinqun&from=timeline)
 
 ## 12-18
+利用typescript 精确获取函数返回值
 [https://zhuanlan.zhihu.com/p/32112508?utm_source=wechat_session&utm_medium=social&from=singlemessage](https://zhuanlan.zhihu.com/p/32112508?utm_source=wechat_session&utm_medium=social&from=singlemessage)
 
 
 ## 12-21
 trim = (arg)=>arg.replace(/^\s+|\s+$/g,'')
 trim = (arg)=>arg.replace(/^\s*(?<=\s|^)(?!\s)(.+)(?<!\s)(?=\s|$)\s*$/,'$1')
+
+## 12-25
+302,301
+[http://blog.csdn.net/qmhball/article/details/7838989](http://blog.csdn.net/qmhball/article/details/7838989)
+
+## 12-26
+react 组件设计
+[https://zhuanlan.zhihu.com/p/25976396](https://zhuanlan.zhihu.com/p/25976396)
+[https://zhuanlan.zhihu.com/p/27727292](https://zhuanlan.zhihu.com/p/27727292)
