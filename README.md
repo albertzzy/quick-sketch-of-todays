@@ -399,3 +399,10 @@ trim = (arg)=>arg.replace(/^\s*(?<=\s|^)(?!\s)(.+)(?<!\s)(?=\s|$)\s*$/,'$1')
 react 组件设计
 [https://zhuanlan.zhihu.com/p/25976396](https://zhuanlan.zhihu.com/p/25976396)
 [https://zhuanlan.zhihu.com/p/27727292](https://zhuanlan.zhihu.com/p/27727292)
+
+
+# 2018
+
+## 1-4 
+import() ,require.ensure()
+[https://zhuanlan.zhihu.com/p/29954035](https://zhuanlan.zhihu.com/p/29954035)
