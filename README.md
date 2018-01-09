@@ -406,3 +406,11 @@ react 组件设计
 ## 1-4 
 import() ,require.ensure()
 [https://zhuanlan.zhihu.com/p/29954035](https://zhuanlan.zhihu.com/p/29954035)
+
+
+## 1-9
+eleme pwa
+[https://zhuanlan.zhihu.com/p/27853228](https://zhuanlan.zhihu.com/p/27853228)
+sw-precache
+[https://medium.com/@Huxpro/how-does-sw-precache-works-2d99c3d3c725](https://medium.com/@Huxpro/how-does-sw-precache-works-2d99c3d3c725)
+[http://www.zhangxinxu.com/wordpress/2017/07/service-worker-cachestorage-offline-develop/](http://www.zhangxinxu.com/wordpress/2017/07/service-worker-cachestorage-offline-develop/)
