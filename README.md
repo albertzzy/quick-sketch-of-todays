@@ -423,3 +423,9 @@ sw-precache
 ## 1-16
 travis
 ```keep moving,man!```
+
+## 1-18
+toString vs toLocaleString
+[https://www.cnblogs.com/niulina/p/5699031.html](https://www.cnblogs.com/niulina/p/5699031.html)
+auth2
+[http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
