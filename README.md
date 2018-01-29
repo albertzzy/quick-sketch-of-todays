@@ -433,3 +433,12 @@ auth2
 ## 1-23
 node --pro
 `Code move event for unknown code`
+
+
+## 1-29
+### svg forginObject
+[http://www.zhangxinxu.com/wordpress/2017/08/svg-foreignobject/](http://www.zhangxinxu.com/wordpress/2017/08/svg-foreignobject/)
+### dom to img
+domvas / dom-to-image
+### messageChannel      [http://www.zhangxinxu.com/wordpress/2012/02/html5-web-messaging-cross-document-messaging-channel-messaging/](http://www.zhangxinxu.com/wordpress/2012/02/html5-web-messaging-cross-document-messaging-channel-messaging/)
+
