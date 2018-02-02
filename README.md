@@ -442,3 +442,8 @@ node --pro
 domvas / dom-to-image
 ### messageChannel      [http://www.zhangxinxu.com/wordpress/2012/02/html5-web-messaging-cross-document-messaging-channel-messaging/](http://www.zhangxinxu.com/wordpress/2012/02/html5-web-messaging-cross-document-messaging-channel-messaging/)
 
+
+## 2-2
+cache-control
+max-age=0 的时候还是会去协商？
+[http://blog.csdn.net/rui0838/article/details/52727343](http://blog.csdn.net/rui0838/article/details/52727343)
