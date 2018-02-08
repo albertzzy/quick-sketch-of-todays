@@ -447,3 +447,8 @@ domvas / dom-to-image
 cache-control
 max-age=0 的时候还是会去协商？
 [http://blog.csdn.net/rui0838/article/details/52727343](http://blog.csdn.net/rui0838/article/details/52727343)
+
+
+## 2-8
+css line-clamp
+[https://css-tricks.com/line-clampin/](https://css-tricks.com/line-clampin/)
